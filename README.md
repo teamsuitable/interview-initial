@@ -15,7 +15,7 @@ Be sure to create a driver function that takes in a parameter of nested arrays o
 ## Recommender
 You’ve recently come on board at our budding start up! In an effort to get to know each team member you decide to take each teammate individually out to lunch over the course of your first year. Everyone in the office considers themselves big foodies and have kept a record of their likes and dislikes towards restaurants in the area. To woo each teammate you decide to enact some crafty engineering to find an optimal restaurant recommendation that he or she hasn’t been to yet for each lunch. The algorithm you select to find these recommendations is a variant of collaborative filtering using a Jaccard similarity index. 
 
-Using provided JSON files `seed/out/ratings.json`, `seed/out/teammates.json` and `restaurants.json` create a program that takes in all files and a teammate id as input to display an output of the top 3 restaurants to recommend to that teammate, ordered descending by highest rated restaurants. To find these recommendations you will need to use the following two equations.
+Using provided JSON files `seed/out/ratings.json`, `seed/out/teammates.json` and `seed/out/restaurants.json` create a program that takes in all files and a teammate id as input to display an output of the top 3 restaurants to recommend to that teammate, ordered descending by highest rated restaurants. To find these recommendations you will need to use the following two equations.
 
 1. Finding a similarity index between Teammate 1 and Teammate 2 with a bounds between -1.0 and 1.0 
 
