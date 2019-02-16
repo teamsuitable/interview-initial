@@ -12,7 +12,7 @@ For simplicity the equations should be represented as nested arrays of doubles. 
 ```
 
 ## Recommender
-Using provided JSON files `likes-dislikes.json` and `restaurants.json` create a program that takes in both files and a teammate id as input to display an output of the top 3 restaurants to recommend to that teammate, ordered descending by highest rated restaurants. To find these recommendations you will need to use the following two equations.
+Using provided JSON files `seed/out/ratings.json`, `seed/out/teammates.json` and `restaurants.json` create a program that takes in all files and a teammate id as input to display an output of the top 3 restaurants to recommend to that teammate, ordered descending by highest rated restaurants. To find these recommendations you will need to use the following two equations.
 
 1. Finding a similarity index between Teammate 1 and Teammate 2 with a bounds between -1.0 and 1.0 
 
