@@ -2,7 +2,7 @@
 Below are two software puzzles we'd like you to solve and develop against. Please read through each description and provide a solution that best satisfies the requested requirements.
 
 ## Division Solver
-Write some code that will correctly solves arbitrary serial division problems such as the following: 
+Write some code, in a language of your choice, that will correctly solves arbitrary serial division problems such as the following: 
 ```
 [ [ 16 ÷ [ 8 ÷ 2 ] ÷ 4 ] ÷ 2 ÷ 80 ]
 ```
@@ -10,6 +10,7 @@ For simplicity the equations should be represented as nested arrays of doubles. 
 ```
 [[16,[8,2],4],2,80]
 ```
+Be sure to create a driver function that takes in a parameter of nested arrays of doubles.
 
 ## Recommender
 Using provided JSON files `seed/out/ratings.json`, `seed/out/teammates.json` and `restaurants.json` create a program that takes in all files and a teammate id as input to display an output of the top 3 restaurants to recommend to that teammate, ordered descending by highest rated restaurants. To find these recommendations you will need to use the following two equations.
