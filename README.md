@@ -21,7 +21,7 @@ Using provided JSON files `seed/out/ratings.json`, `seed/out/teammates.json` and
 
 ![Similarity Index](images/similarity.png)
 
-The equation returns a similarity index between two teammates by first finding the intersection between all the likes between teammate 1 and teammate 2 and adding that to the intersection of all the dislikes between teammate 1 and teammate 2. Then subtracting the subsequent sum by the intersection of the likes of teammate 1 between the dislike of teammate 2 then transversely subtracting the difference by the intersection of the dislikes of teammate 1 between the likes of teammate 2. Finally dividing the previous sum by the union of all the likes OR dislikes of teammate 1 between all the likes OR dislikes of teammate 2.
+The equation returns a similarity index between two teammates by first finding the intersection between all the likes between teammate 1 and teammate 2 and adding that to the intersection of all the dislikes between teammate 1 and teammate 2. Then subtracting the subsequent sum by the intersection of the likes of teammate 1 between the dislikes of teammate 2 then transversely subtracting the difference by the intersection of the dislikes of teammate 1 between the likes of teammate 2. Finally dividing the previous sum by the union of all the ratings of teammate 1 between all the ratings of teammate 2.
 
 2. Prediction between each teammate and a specific restaurant
 
