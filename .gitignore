@@ -1,3 +1,4 @@
 seed/in/*
 
 node_modules/
+.idea/
